@@ -1,0 +1,7 @@
+{
+    "name": "Chrome User-Agent spoofer for OWA access",
+    "version": "0.1",
+    "description": "Set another (Firefox) user-agent for Outlook Web Access pages :-)",
+    "background_page": "background.html",
+    "permissions": [ "experimental", "tabs" ]
+}
