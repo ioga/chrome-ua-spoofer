@@ -19,7 +19,7 @@ Installation
 
 Q&A
 ===
-*Q*: Yet another User-Agent spoofing extension?
+**Q**: Yet another User-Agent spoofing extension?
 
-*A*: Yep, but it works.
+**A**: Yep, but this one actually works.
 
