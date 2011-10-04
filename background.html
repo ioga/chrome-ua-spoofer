@@ -5,12 +5,11 @@ chrome.experimental.webRequest.onBeforeSendHeaders.addListener(function(details)
     if (details.url.match(/\/owa\//)) {
         var headers = details.requestHeaders;
         for (var i = 0, l = headers.length; i < l; ++i) {
-            if( headers[i].name == 'User-Agent' ) {
+            if (headers[i].name == 'User-Agent') {
                 headers[i].value = "Mozilla/5.0 (X11; Linux x86_64; rv:6.0) Gecko/20100101 Firefox/6.0";
-                break;
+                return { requestHeaders: headers };
             }
         }
-        return { requestHeaders: headers };
     }
 }, undefined, ['requestHeaders','blocking']);
 </script>
