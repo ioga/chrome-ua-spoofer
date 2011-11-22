@@ -1,3 +1,7 @@
+It's totally experimental
+===
+As of Chromium version 16, it stopped working, and i failed to figure out the reason :(
+
 Description
 ===
 This extension just substitutes Firefox user-agent for all url matching `/\/owa\//`.
